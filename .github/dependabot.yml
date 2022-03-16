@@ -20,6 +20,12 @@ updates:
 
   - package-ecosystem: "bundler"
     directory: "/"
+    target-branch: "with-ruby-version-range-in-gemfile"
+    schedule:
+      interval: "daily"
+
+  - package-ecosystem: "bundler"
+    directory: "/"
     target-branch: "with-static-ruby-version-in-gemfile"
     schedule:
       interval: "daily"
