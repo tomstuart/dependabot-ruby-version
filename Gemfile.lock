@@ -1,11 +1,13 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    google-protobuf (3.19.4-x86_64-linux)
 
 PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  google-protobuf
 
 BUNDLED WITH
    2.3.9
