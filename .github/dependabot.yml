@@ -1,0 +1,31 @@
+version: 2
+updates:
+  - package-ecosystem: "bundler"
+    directory: "/"
+    target-branch: "with-dev-yml-ruby-version-in-gemfile"
+    schedule:
+      interval: "daily"
+
+  - package-ecosystem: "bundler"
+    directory: "/"
+    target-branch: "with-dotfile-ruby-version-in-gemfile"
+    schedule:
+      interval: "daily"
+
+  - package-ecosystem: "bundler"
+    directory: "/"
+    target-branch: "with-ruby-version-dotfile"
+    schedule:
+      interval: "daily"
+
+  - package-ecosystem: "bundler"
+    directory: "/"
+    target-branch: "with-static-ruby-version-in-gemfile"
+    schedule:
+      interval: "daily"
+
+  - package-ecosystem: "bundler"
+    directory: "/"
+    target-branch: "without-ruby-version"
+    schedule:
+      interval: "daily"
